@@ -10,15 +10,15 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) { delay(500); }
 
   pinMode(D1, INPUT);
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(D2, OUTPUT);
 }
 
 void loop() {
   byte buttonInp = digitalRead(D1);
 
   if (buttonInp == HIGH) {
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(D2, LOW);
   } else {
-    digitalWrite(LED_BUILTIN, HIGH);
+    digitalWrite(D2, HIGH);
   }
 }
