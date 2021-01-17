@@ -1,9 +1,3 @@
-#include "ESP8266WiFi.h"
-
-const char* ssid     = "ssid";
-const char* password = "password";
-const char* hostname = "esp8266";
-
 byte relayFlag = HIGH;
 
 void setup() {
