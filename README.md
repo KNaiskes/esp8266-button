@@ -27,3 +27,14 @@ $ pip install -r requirements.txt
 ```
 $ platformio run --target upload
 ```
+
+# Components
+
+| list                        |
+|-----------------------------|
+| 1 ESP8266                   |
+| 1 Switch Push Button        |
+| 1 1K ohm resistor           |
+| 1 Breadboard                |
+| 1 Relay                     |
+| 6 Male to Male Jumper Wires |
