@@ -21,3 +21,9 @@ $ source venv/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
+
+## Upload code to the board
+
+```
+$ platformio run --target upload
+```
