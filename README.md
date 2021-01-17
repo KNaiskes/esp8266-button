@@ -1,5 +1,8 @@
 # esp8266-button
 
+Control a two state device (ON/OFF) with an ESP8266, a relay and aswitch push button
+
+
 ## Quick Start
 
 ### Clone repository
